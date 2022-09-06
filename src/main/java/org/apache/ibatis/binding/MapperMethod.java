@@ -321,6 +321,7 @@ public class MapperMethod {
       return resultHandlerIndex != null;
     }
 
+    @SuppressWarnings("rawtypes")
     public ResultHandler extractResultHandler(Object[] args) {
       return hasResultHandler() ? (ResultHandler) args[resultHandlerIndex] : null;
     }

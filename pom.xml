@@ -201,7 +201,8 @@
       <version>2.5.2</version>
       <scope>test</scope>
     </dependency>
-    <dependency> <!-- 10.15+ need Java 9+ -->
+    <dependency>
+      <!-- 10.15+ need Java 9+ -->
       <groupId>org.apache.derby</groupId>
       <artifactId>derby</artifactId>
       <version>10.14.2.0</version>
